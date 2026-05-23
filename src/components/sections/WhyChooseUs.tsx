@@ -6,12 +6,12 @@ import { CheckCircle, Shield, Zap, Heart, Map, Clock, ArrowRight } from 'lucide-
 
 const WhyChooseUs = () => {
   const reasons = [
-    { title: 'Personalized Planning', desc: 'Every itinerary is custom-built based on your preferences, interests, and budget.', icon: Heart },
-    { title: 'Transparent Pricing', desc: 'No hidden costs. We provide clear, itemized quotes for complete peace of mind.', icon: Shield },
-    { title: 'Quick Support', desc: 'Our dedicated team is available 24/7 to assist you before, during, and after your trip.', icon: Zap },
-    { title: 'End-to-End Assistance', desc: 'From visa documentation to hotel check-ins, we handle every detail of your journey.', icon: CheckCircle },
-    { title: 'Reliable Bookings', desc: 'Direct partnerships with major airlines and premium hotel chains worldwide.', icon: Map },
-    { title: 'Smooth Coordination', desc: 'Expert ground support ensures your transfers and tours are perfectly timed and stress-free.', icon: Clock },
+    { title: 'Personalized Planning', desc: 'We create custom travel plans based on what you like and your budget.', icon: Heart },
+    { title: 'Transparent Pricing', desc: 'Clear prices with no hidden costs. You know exactly what you are paying for.', icon: Shield },
+    { title: 'Quick Support', desc: 'Our team is here to help you 24/7 before, during, and after your trip.', icon: Zap },
+    { title: 'End-to-End Assistance', desc: 'We handle everything, from your visa to your hotel, for a stress-free trip.', icon: CheckCircle },
+    { title: 'Reliable Bookings', desc: 'We work directly with top airlines and luxury hotels to get you the best.', icon: Map },
+    { title: 'Smooth Coordination', desc: 'Our local experts make sure your transfers and tours are always on time.', icon: Clock },
   ]
 
   return (
@@ -28,13 +28,13 @@ const WhyChooseUs = () => {
         <div className="flex flex-col lg:flex-row items-start justify-between gap-16 mb-16">
           <div className="max-w-2xl">
             <SectionHeader 
-              title="The Difference is in the Unseen Details" 
-              subtitle="Why Jade Tours" 
+              title="Why Choose Jade Tours" 
+              subtitle="The Jade Advantage" 
               align="left"
               className="mb-6"
             />
             <p className="text-body text-lg font-light leading-relaxed">
-              We define luxury not by the price tag, but by the precision of our execution and the depth of our personal care.
+              We provide high-quality service by taking care of every detail and focusing on your needs.
             </p>
           </div>
           <div className="hidden lg:block pt-12">
@@ -89,7 +89,7 @@ const WhyChooseUs = () => {
           className="mt-32 pt-12 border-t border-black/[0.03] text-center"
         >
           <p className="text-[10px] uppercase tracking-[0.4em] text-body/40 font-bold">
-            Trusted by Elite Travelers Since 2011
+            Trusted by over 10,000 travelers since 2011
           </p>
         </motion.div>
       </div>

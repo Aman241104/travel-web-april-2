@@ -56,7 +56,7 @@ const About = () => {
                 <div>
                     <div className="text-4xl font-serif text-primary leading-none mb-2">15+</div>
                     <div className="text-[9px] uppercase tracking-[0.3em] text-heading font-bold leading-tight">
-                    Years of <br />Logistical Mastery
+                    Years of <br />Travel Expertise
                     </div>
                 </div>
                 </div>
@@ -69,7 +69,7 @@ const About = () => {
             {/* Right Column: Narrative */}
             <div className="lg:col-span-7">
             <SectionHeader 
-                title="The Art of Bespoke Travel Assistance" 
+                title="Expert Help for Your Perfect Trip" 
                 subtitle="Our Heritage"
                 align="left"
                 className="mb-12"
@@ -77,27 +77,27 @@ const About = () => {
             
             <div className="space-y-10">
                 <p className="text-2xl md:text-3xl font-serif text-heading leading-relaxed italic opacity-90 tracking-tight">
-                &quot;We define luxury through the precision of our execution and the depth of our personal care.&quot;
+                &quot;We make luxury travel easy by taking care of every little detail for you.&quot;
                 </p>
                 
                 <p className="text-body leading-loose text-lg font-light opacity-80">
-                At Jade Tours & Travels, we don&apos;t just book flights; we curate time. With over 15 years of industry mastery, our team specializes in the intricate geometry of travel—from the perfect domestic connection to the most complex international multi-city odyssey. 
+                At Jade Tours & Travels, we do more than just book flights. With over 15 years of experience, our team handles everything—from simple local trips to complex international journeys.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-12 border-t border-black/[0.05]">
                 <div className="group">
                     <div className="flex items-center gap-4 mb-6">
                     <div className="w-10 h-[1px] bg-primary/40 group-hover:w-16 group-hover:bg-primary transition-all duration-700" />
-                    <h4 className="text-heading font-bold text-[10px] uppercase tracking-[0.3em]">The Jade Promise</h4>
+                    <h4 className="text-heading font-bold text-[10px] uppercase tracking-[0.3em]">Our Promise</h4>
                     </div>
-                    <p className="text-base text-body font-light leading-relaxed">To deliver uncompromised reliability and a seamless travel experience that begins the moment you reach out to us.</p>
+                    <p className="text-base text-body font-light leading-relaxed">To provide reliable service and a smooth travel experience from the moment you contact us.</p>
                 </div>
                 <div className="group">
                     <div className="flex items-center gap-4 mb-6">
                     <div className="w-10 h-[1px] bg-primary/40 group-hover:w-16 group-hover:bg-primary transition-all duration-700" />
-                    <h4 className="text-heading font-bold text-[10px] uppercase tracking-[0.3em]">Our Craft</h4>
+                    <h4 className="text-heading font-bold text-[10px] uppercase tracking-[0.3em]">Our Expertise</h4>
                     </div>
-                    <p className="text-base text-body font-light leading-relaxed">Blending 15 years of technical expertise with the intuitive care of a premium personal concierge service.</p>
+                    <p className="text-base text-body font-light leading-relaxed">Combining 15 years of travel knowledge with personal care for every customer.</p>
                 </div>
                 </div>
             </div>

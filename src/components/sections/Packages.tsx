@@ -41,11 +41,11 @@ const Packages = () => {
       <div className="container-wide">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-10 mb-10 md:mb-16">
             <SectionHeader 
-                title="Signature Journeys Curated for You" 
-                subtitle="Featured Collections" 
+                title="Special Holiday Packages" 
+                subtitle="Holiday Specials" 
                 align="left"
                 className="mb-0"
-                description="Experience the pinnacle of luxury with our exclusively designed signature tours."
+                description="Enjoy a perfect luxury holiday with our specially designed tour packages."
             />
             <div className="flex gap-4">
                 <div className="w-12 h-12 rounded-full border border-black/5 flex items-center justify-center text-body opacity-50 hover:opacity-100 transition-opacity cursor-pointer">
@@ -134,9 +134,9 @@ const Packages = () => {
         
         <div className="mt-20 flex flex-col items-center">
           <Button variant="primary" className="h-16 px-12">
-            Explore Signature Collections
+            View All Holiday Packages
           </Button>
-          <p className="mt-6 text-[9px] text-body/40 uppercase tracking-[0.2em] font-bold">150+ bespoke itineraries available</p>
+          <p className="mt-6 text-[9px] text-body/40 uppercase tracking-[0.2em] font-bold">Over 150+ custom travel plans available</p>
         </div>
       </div>
     </section>

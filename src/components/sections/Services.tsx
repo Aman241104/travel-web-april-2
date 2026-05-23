@@ -7,14 +7,14 @@ import { Plane, Globe, Map, FileText, ShieldCheck, Hotel, Landmark, CreditCard, 
 
 const Services = () => {
   const services = [
-    { title: 'International Tickets', desc: 'Global flight assistance with optimized routes and premium seating options.', icon: Plane },
-    { title: 'Visitor Visa', desc: 'Expert guidance for documentation and hassle-free visa processing worldwide.', icon: ShieldCheck },
-    { title: 'Tour Packages', desc: 'Bespoke domestic & international itineraries curated for the discerning traveler.', icon: Globe },
-    { title: 'Hotel Bookings', desc: 'Exclusive access to handpicked luxury stays and five-star accommodations.', icon: Hotel },
-    { title: 'Passport Services', desc: 'Streamlined assistance for new applications, renewals, and expedited processing.', icon: FileText },
-    { title: 'Forex Services', desc: 'Secure currency exchange with competitive rates and global reliability.', icon: CreditCard },
-    { title: 'Overseas Insurance', desc: 'Comprehensive medical and travel coverage for ultimate peace of mind.', icon: Landmark },
-    { title: 'Car Rental', desc: 'Chauffeur-driven or self-drive luxury vehicles for seamless local travel.', icon: Car },
+    { title: 'International Tickets', desc: 'We help you find the best flights and seats for your international trips.', icon: Plane },
+    { title: 'Visitor Visa', desc: 'Easy help with visa applications and paperwork for any country.', icon: ShieldCheck },
+    { title: 'Tour Packages', desc: 'Custom travel plans for local and international holidays.', icon: Globe },
+    { title: 'Hotel Bookings', desc: 'We book the best luxury hotels and stays for you.', icon: Hotel },
+    { title: 'Passport Services', desc: 'Fast help with new passports and renewals.', icon: FileText },
+    { title: 'Forex Services', desc: 'Safe and easy money exchange for your travels.', icon: CreditCard },
+    { title: 'Overseas Insurance', desc: 'Full travel and medical insurance for a safe trip.', icon: Landmark },
+    { title: 'Car Rental', desc: 'Luxury car rentals with or without a driver.', icon: Car },
   ]
 
   return (
@@ -26,14 +26,14 @@ const Services = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">
           <SectionHeader 
-            title="Bespoke Travel Solutions for the Global Explorer" 
-            subtitle="The Jade Portfolio" 
+            title="Travel Services for Every Need" 
+            subtitle="What We Offer" 
             align="left"
             className="mb-0 max-w-2xl"
           />
           <div className="hidden lg:block pb-2">
             <p className="text-body text-sm max-w-xs leading-relaxed italic opacity-70">
-              &quot;Precision in every detail, care in every connection. We handle the complexity, you embrace the journey.&quot;
+              &quot;We handle the hard parts of travel so you can enjoy your trip.&quot;
             </p>
           </div>
         </div>

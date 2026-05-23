@@ -11,10 +11,10 @@ const StatsStrip = () => {
   const containerRef = useRef<HTMLDivElement>(null)
   
   const stats = [
-    { value: 1000, suffix: '+', label: 'Global Travelers' },
-    { value: 100, suffix: '%', label: 'Tailored Support' },
-    { value: 15, suffix: '+', label: 'Years of Mastery' },
-    { value: 50, suffix: '+', label: 'Elite Destinations' },
+    { value: 1000, suffix: '+', label: 'Happy Travelers' },
+    { value: 100, suffix: '%', label: 'Personal Support' },
+    { value: 15, suffix: '+', label: 'Years of Experience' },
+    { value: 50, suffix: '+', label: 'Best Destinations' },
   ]
 
   useEffect(() => {

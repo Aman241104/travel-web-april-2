@@ -20,7 +20,7 @@ const Footer = () => {
               <span className="tracking-tight leading-none pt-1">Jade <span className="text-primary italic font-light">Tours</span></span>
             </Link>
             <p className="text-white/70 text-base leading-loose mb-12 max-w-sm font-light">
-              Crafting bespoke modern travel experiences and elite logistics for the world&apos;s most discerning explorers since 2011. Your journey is our masterpiece.
+              We create perfect luxury trips and handle all your travel needs. Since 2011, we&apos;ve helped thousands of travelers enjoy stress-free journeys.
             </p>
             
             <div className="flex gap-6">
@@ -47,13 +47,13 @@ const Footer = () => {
 
           {/* Column 2: Experiences */}
           <div className="lg:col-span-2">
-            <h4 className="text-white font-bold text-[9px] uppercase tracking-[0.4em] mb-12 opacity-90">Experiences</h4>
+            <h4 className="text-white font-bold text-[9px] uppercase tracking-[0.4em] mb-12 opacity-90">Travel</h4>
             <ul className="space-y-6">
               {[
-                { name: 'Our Heritage', href: '#about' },
-                { name: 'The Portfolio', href: '#services' },
+                { name: 'Our Story', href: '#about' },
+                { name: 'Our Services', href: '#services' },
                 { name: 'Destinations', href: '#destinations' },
-                { name: 'Tour Packages', href: '#packages' }
+                { name: 'Holiday Packages', href: '#packages' }
               ].map((link) => (
                 <li key={link.name}>
                   <Link href={link.href} className="text-[13px] text-white/60 hover:text-white transition-colors duration-500 flex items-center group/nav font-light tracking-wide">
@@ -69,13 +69,13 @@ const Footer = () => {
 
           {/* Column 3: Logistics */}
           <div className="lg:col-span-2">
-            <h4 className="text-white font-bold text-[9px] uppercase tracking-[0.4em] mb-12 opacity-90">Logistics</h4>
+            <h4 className="text-white font-bold text-[9px] uppercase tracking-[0.4em] mb-12 opacity-90">Services</h4>
             <ul className="space-y-6">
               {[
-                { name: 'Aviation Mastery', href: '#' },
-                { name: 'Visa Concierge', href: '#' },
+                { name: 'Flight Booking', href: '#' },
+                { name: 'Visa Help', href: '#' },
                 { name: 'Corporate Travel', href: '#' },
-                { name: 'Forex Services', href: '#' }
+                { name: 'Money Exchange', href: '#' }
               ].map((link) => (
                 <li key={link.name}>
                   <Link href={link.href} className="text-[13px] text-white/60 hover:text-white transition-colors duration-500 flex items-center group/nav font-light tracking-wide">
@@ -91,7 +91,7 @@ const Footer = () => {
 
           {/* Column 4: Atelier */}
           <div className="lg:col-span-4 lg:pl-16">
-            <h4 className="text-white font-bold text-[9px] uppercase tracking-[0.4em] mb-12 opacity-90">The Jade Atelier</h4>
+            <h4 className="text-white font-bold text-[9px] uppercase tracking-[0.4em] mb-12 opacity-90">Contact Us</h4>
             <div className="space-y-10">
                 <div className="flex items-start gap-6 group">
                     <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-primary border border-white/10 group-hover:border-primary/40 transition-all duration-700 shadow-lg shadow-black/20">
@@ -115,8 +115,8 @@ const Footer = () => {
                 <div className="pt-8">
                     <Link href="#" className="block p-8 rounded-[32px] bg-white/[0.04] border border-white/10 hover:bg-white/[0.08] hover:border-primary/30 transition-all duration-700 group/circle shadow-xl shadow-black/20">
                         <div className="flex items-center justify-between">
-                            <span className="text-[10px] font-bold text-white/80 uppercase tracking-[0.3em] italic">Join the Inner Circle</span>
-                            <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary group-hover/circle:scale-110 transition-transform duration-700 shadow-lg shadow-primary/10">
+                            <span className="text-[10px] font-bold text-white/80 uppercase tracking-[0.3em] italic">Join Our Newsletter</span>
+                            <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary group-hover:circle:scale-110 transition-transform duration-700 shadow-lg shadow-primary/10">
                                 <ArrowUpRight size={18} />
                             </div>
                         </div>
@@ -131,7 +131,7 @@ const Footer = () => {
           <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
             <span className="opacity-60">© 2026 Jade Tours & Travels</span>
             <Link href="#" className="text-white/60 hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="#" className="text-white/60 hover:text-white transition-colors">Terms of Luxury</Link>
+            <Link href="#" className="text-white/60 hover:text-white transition-colors">Terms of Service</Link>
           </div>
           <div className="flex items-center gap-4 text-white/60 font-light">
             <Globe size={14} className="text-primary/40" />

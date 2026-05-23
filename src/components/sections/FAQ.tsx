@@ -39,14 +39,14 @@ const FAQ = () => {
       <div className="max-w-4xl mx-auto relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">
           <SectionHeader 
-            title="Essential Inquiries & Knowledge" 
-            subtitle="Guidance" 
+            title="Common Questions" 
+            subtitle="Help Center" 
             align="left"
             className="mb-0"
           />
           <div className="hidden lg:block pb-2">
             <p className="text-body text-[10px] font-bold uppercase tracking-[0.2em] opacity-40">
-              Technical Clarity <br />For Every Journey
+              Clear Answers <br />For Your Trip
             </p>
           </div>
         </div>
@@ -92,7 +92,7 @@ const FAQ = () => {
                         {faq.answer}
                         </p>
                         <div className="mt-8 flex items-center gap-4 group/link cursor-pointer">
-                            <span className="text-[9px] font-bold text-primary uppercase tracking-[0.2em]">Consult a Specialist</span>
+                            <span className="text-[9px] font-bold text-primary uppercase tracking-[0.2em]">Ask an Expert</span>
                             <ArrowUpRight size={12} className="text-primary group-hover/link:translate-x-1 group-hover/link:-translate-y-1 transition-transform" />
                         </div>
                     </div>
@@ -110,10 +110,10 @@ const FAQ = () => {
           viewport={{ once: true }}
           className="mt-24 p-12 rounded-[40px] bg-surface/50 border border-black/[0.03] text-center"
         >
-            <h3 className="text-2xl font-serif text-heading mb-4 italic">Still have unanswered questions?</h3>
-            <p className="text-body text-sm mb-8 opacity-70">Our dedicated concierge is available 24/7 for technical and luxury travel guidance.</p>
+            <h3 className="text-2xl font-serif text-heading mb-4 italic">Still have questions?</h3>
+            <p className="text-body text-sm mb-8 opacity-70">Our team is here 24/7 to help you with any travel questions.</p>
             <button className="text-[10px] font-bold uppercase tracking-[0.3em] text-primary border-b border-primary/20 hover:border-primary pb-2 transition-all">
-                Connect with an Expert
+                Chat with Us Now
             </button>
         </motion.div>
       </div>

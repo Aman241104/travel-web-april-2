@@ -6,10 +6,10 @@ import { Button } from '../ui/Button'
 
 const AirTicketing = () => {
   const highlights = [
-    { title: 'Global Domestic Network', icon: Plane, detail: 'Comprehensive India Coverage' },
-    { title: 'International First & Business', icon: Globe, detail: 'Exclusive Cabin Access' },
-    { title: 'Corporate & Group Logistics', icon: Building, detail: 'Strategic Fare Management' },
-    { title: 'Dedicated Route Specialists', icon: MapPin, detail: 'Optimized Connection Planning' },
+    { title: 'Local & Global Network', icon: Plane, detail: 'Flights Across India & The World' },
+    { title: 'Luxury & Business Class', icon: Globe, detail: 'Exclusive Seat Access' },
+    { title: 'Groups & Business', icon: Building, detail: 'Special Rates for Teams' },
+    { title: 'Fast Connections', icon: MapPin, detail: 'Best Routes & Short Layovers' },
   ]
 
   return (
@@ -30,16 +30,16 @@ const AirTicketing = () => {
           >
             <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-[1px] bg-primary" />
-                <span className="text-primary font-bold tracking-[0.3em] uppercase text-[10px]">Aviation Mastery</span>
+                <span className="text-primary font-bold tracking-[0.3em] uppercase text-[10px]">Flight Experts</span>
             </div>
             
             <h2 className="text-4xl md:text-6xl font-serif text-heading mb-8 leading-[1.1] tracking-tight">
-              Precision Flight <br />
-              <span className="italic font-light opacity-80">Logistics & Strategy</span>
+              Easy Flight <br />
+              <span className="italic font-light opacity-80">Bookings Made Simple</span>
             </h2>
             
             <p className="text-body text-lg leading-relaxed mb-12 max-w-2xl font-light">
-              Navigating global aviation pricing and availability requires more than a search engine—it requires mastery. Our specialists leverage direct GDS access to secure optimized routes and preferred cabin experiences.
+              We help you find the best flight routes and prices. Our experts use professional tools to get you the best seats and deals for your next journey.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10 mb-16">
@@ -67,11 +67,11 @@ const AirTicketing = () => {
 
             <div className="flex flex-col sm:flex-row items-center gap-8">
                 <Button variant="primary" className="h-16 px-12 shadow-2xl shadow-primary/20 group">
-                    Inquire Availability <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
+                    Check Flight Prices <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 <div className="flex items-center gap-3 text-body/60 text-[10px] font-bold uppercase tracking-[0.2em]">
                     <ShieldCheck size={16} className="text-primary" />
-                    Secure Direct GDS Access
+                    Professional Booking Tools
                 </div>
             </div>
           </motion.div>
@@ -104,8 +104,8 @@ const AirTicketing = () => {
                 <div className="w-full h-full rounded-full border border-black/[0.05] flex flex-col items-center justify-center text-center p-12 relative overflow-hidden">
                     <div className="absolute inset-0 bg-primary/[0.02] animate-pulse" />
                     <Globe size={100} strokeWidth={0.5} className="text-primary/20 mb-8" />
-                    <h3 className="text-2xl font-serif text-heading mb-2 leading-none">Global Link</h3>
-                    <p className="text-body text-[8px] uppercase tracking-[0.4em] font-bold opacity-40">Direct Integration</p>
+                    <h3 className="text-2xl font-serif text-heading mb-2 leading-none">Global Reach</h3>
+                    <p className="text-body text-[8px] uppercase tracking-[0.4em] font-bold opacity-40">Direct Airline Access</p>
                 </div>
              </div>
 

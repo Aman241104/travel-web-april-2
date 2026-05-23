@@ -35,17 +35,17 @@ const FinalCTA = () => {
           >
             <div className="flex items-center justify-center gap-4 mb-10">
                 <div className="w-12 h-[1px] bg-white/40" />
-                <span className="text-white font-bold tracking-[0.5em] uppercase text-[11px] drop-shadow-sm">Your Next Chapter</span>
+                <span className="text-white font-bold tracking-[0.5em] uppercase text-[11px] drop-shadow-sm">Your Next Adventure</span>
                 <div className="w-12 h-[1px] bg-white/40" />
             </div>
 
             <h2 className="text-5xl md:text-8xl font-serif text-white mb-10 leading-[1.1] tracking-tight drop-shadow-2xl">
-              Begin Your Bespoke <br />
-              <span className="italic font-light text-white/90">Odyssey Today</span>
+              Start Your Dream <br />
+              <span className="italic font-light text-white/90">Trip Today</span>
             </h2>
             
             <p className="text-white/90 text-lg md:text-2xl max-w-3xl mx-auto mb-12 font-light leading-relaxed drop-shadow-md">
-              Whether you envision a tranquil retreat, a cultural immersion, or a high-stakes business journey — we orchestrate every detail with unparalleled precision.
+              Whether you want a relaxing holiday, a cultural trip, or a business journey—we handle every detail for you.
             </p>
             
             <div className="flex flex-col sm:flex-row justify-center items-center gap-10">
@@ -59,7 +59,7 @@ const FinalCTA = () => {
                 </div>
                 
                 <Button isMagnetic className="h-20 px-14 gap-5 text-[10px] bg-white text-[#25D366] hover:bg-[#F0FDF4] font-bold tracking-[0.2em] shadow-2xl group transition-all duration-500">
-                  <WhatsAppIcon size={24} /> Speak with our Concierge
+                  <WhatsAppIcon size={24} /> Message Our Experts
                 </Button>
               </div>
 
@@ -79,11 +79,11 @@ const FinalCTA = () => {
             <div className="mt-24 pt-12 border-t border-white/10 flex flex-wrap justify-center gap-16">
                 <div className="flex items-center gap-4 text-white/60 text-[10px] font-bold uppercase tracking-[0.3em] group cursor-default">
                     <ShieldCheck size={20} className="text-white/40 group-hover:text-white transition-colors duration-500" />
-                    Encrypted Communications
+                    Safe & Private Chat
                 </div>
                 <div className="flex items-center gap-4 text-white/60 text-[10px] font-bold uppercase tracking-[0.3em] group cursor-default">
                     <ArrowRight size={20} className="text-white/40 group-hover:text-white transition-colors duration-500" />
-                    No Commitment Required
+                    No Hidden Fees
                 </div>
             </div>
           </motion.div>

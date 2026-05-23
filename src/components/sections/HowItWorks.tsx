@@ -15,28 +15,28 @@ const HowItWorks = () => {
 
   const steps = [
     { 
-      title: 'Inquiry & Vision', 
-      desc: 'Share your preferred destination, budget, and travel aspirations with our specialists.',
+      title: 'Contact Us', 
+      desc: 'Tell us where you want to go and what your budget is.',
       icon: Mail,
-      detail: 'Initial Consultation'
+      detail: 'Step 1'
     },
     { 
-      title: 'Curated Options', 
-      desc: 'Receive meticulously tailored itineraries and optimized flight routes for your review.',
+      title: 'Get Your Plan', 
+      desc: 'Get custom travel plans and the best flight options to choose from.',
       icon: Search,
-      detail: 'Bespoke Curation'
+      detail: 'Step 2'
     },
     { 
-      title: 'Seamless Booking', 
-      desc: 'We finalize every detail, from premium seating to comprehensive visa documentation.',
+      title: 'Easy Booking', 
+      desc: 'We handle all the bookings and paperwork for your trip.',
       icon: CheckCircle2,
-      detail: 'Documentation'
+      detail: 'Step 3'
     },
     { 
-      title: 'The Journey', 
-      desc: 'Embark on your journey with 24/7 dedicated support and flawless coordination.',
+      title: 'Travel & Enjoy', 
+      desc: 'Enjoy your trip with 24/7 support from our team.',
       icon: PlaneLanding,
-      detail: 'World-Class Support'
+      detail: 'Step 4'
     },
   ]
 
@@ -73,8 +73,8 @@ const HowItWorks = () => {
 
       <div className="max-w-7xl mx-auto relative z-10">
         <SectionHeader 
-          title="The Path to an Effortless Masterpiece" 
-          subtitle="The Process" 
+          title="How to Book Your Trip" 
+          subtitle="Easy Steps" 
           className="mb-16"
         />
         

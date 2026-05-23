@@ -57,11 +57,11 @@ const Destinations = () => {
         <div className="container-wide mb-4 md:mb-6">
            <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
              <SectionHeader 
-               title="Handpicked Global Escapes" 
-               subtitle="Curated Collections" 
+               title="Amazing Places to Visit" 
+               subtitle="Our Best Destinations" 
                align="left" 
                className="mb-0 max-w-2xl" 
-               description="A bespoke selection of the world's most breathtaking destinations, meticulously vetted for the ultimate travel experience."
+               description="We've chosen the best places around the world for your next holiday."
              />
              <div className="flex items-center gap-6">
                 <Button variant="secondary" className="hidden md:flex">Explore All 50+ <ArrowRight size={14} /></Button>
@@ -121,8 +121,8 @@ const Destinations = () => {
                     <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center text-primary mb-8 shadow-2xl group-hover:scale-110 transition-transform duration-700">
                         <ArrowRight size={24} />
                     </div>
-                    <h3 className="text-3xl font-serif text-heading mb-4 group-hover:text-white transition-colors leading-tight">Your World <br />Awaits</h3>
-                    <p className="text-body text-sm mb-8 group-hover:text-white/70 transition-colors font-light">Explore our complete collection of <br />over 150+ global retreats.</p>
+                    <h3 className="text-3xl font-serif text-heading mb-4 group-hover:text-white transition-colors leading-tight">Your Next Trip <br />Starts Here</h3>
+                    <p className="text-body text-sm mb-8 group-hover:text-white/70 transition-colors font-light">Check out all 150+ amazing <br />destinations we offer.</p>
                     <button className="text-[9px] font-bold uppercase tracking-[0.2em] text-primary group-hover:text-white border-b border-primary/20 group-hover:border-white/40 pb-2 transition-all">
                         View Complete Catalog
                     </button>

@@ -12,24 +12,24 @@ const Testimonials = () => {
     {
       name: 'Rahul Sharma',
       location: 'Mumbai',
-      persona: 'The Luxury Explorer',
-      text: 'Jade Tours handled our Dubai trip perfectly. The flight connections were seamless and the hotel choice was exactly what we needed for our family. Their attention to seating and transfers made all the difference.',
+      persona: 'Luxury Traveler',
+      text: 'Jade Tours handled our Dubai trip perfectly. The flights were easy and the hotel was exactly what we needed. Their team took care of every detail, making it a stress-free family holiday.',
       rating: 5,
       image: '/images/customer/image_copy_1.png'
     },
     {
       name: 'Priya Iyer',
       location: 'Bangalore',
-      persona: 'The Heritage Seeker',
-      text: 'Extremely reliable visa assistance. I was worried about my Europe visa documentation, but their team guided me through every step flawlessly. We had a stress-free honeymoon thanks to their meticulous planning.',
+      persona: 'Frequent Traveler',
+      text: 'Very helpful with my visa. I was worried about the paperwork for Europe, but they guided me through everything. We had a perfect honeymoon thanks to their great planning.',
       rating: 5,
       image: '/images/customer/image_copy_2.png'
     },
     {
       name: 'Amit Patel',
       location: 'Ahmedabad',
-      persona: 'The Business Traveler',
-      text: 'Best rates for international flight bookings. Their route assistance saved us both time and money on our recent corporate trip to Singapore. Professionalism at its finest.',
+      persona: 'Business Traveler',
+      text: 'Got the best rates for my international flights. They helped me find the best routes which saved me time and money on my business trip. Very professional service.',
       rating: 5,
       image: '/images/customer/image_copy_3.png'
     }
@@ -94,7 +94,7 @@ const Testimonials = () => {
           {/* Right: The Testimony (7 Columns) */}
           <div className="lg:col-span-7 order-1 lg:order-2">
             <SectionHeader 
-              title="Voices of the Worldly & Refined" 
+              title="What Our Travelers Say" 
               subtitle="Testimonials" 
               align="left"
               className="mb-12"
@@ -124,7 +124,7 @@ const Testimonials = () => {
                   <div className="w-px h-12 bg-primary/20" />
                   <div>
                     <h4 className="text-lg font-bold text-heading leading-none mb-1">{reviews[active].name}</h4>
-                    <span className="text-[10px] uppercase tracking-[0.2em] text-body/60 font-bold">{reviews[active].location} • Verified Journey</span>
+                    <span className="text-[10px] uppercase tracking-[0.2em] text-body/60 font-bold">{reviews[active].location} • Verified Review</span>
                   </div>
                 </div>
               </motion.div>
@@ -132,7 +132,7 @@ const Testimonials = () => {
 
             {/* Trusted indicators */}
             <div className="mt-20 pt-8 border-t border-black/[0.05] flex flex-wrap gap-8 items-center">
-                <span className="text-[9px] font-bold text-body/40 uppercase tracking-[0.3em]">Highly Rated On</span>
+                <span className="text-[9px] font-bold text-body/40 uppercase tracking-[0.3em]">Our Ratings On</span>
                 <div className="flex gap-6 opacity-30">
                     <span className="font-serif text-lg font-bold italic tracking-tighter">Google Reviews</span>
                     <span className="font-serif text-lg font-bold italic tracking-tighter">Trustpilot</span>

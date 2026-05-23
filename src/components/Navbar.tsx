@@ -19,10 +19,10 @@ const Navbar = () => {
   }, [])
 
   const navLinks = [
-    { name: 'Heritage', href: '#about' },
-    { name: 'Portfolio', href: '#services' },
-    { name: 'Collections', href: '#destinations' },
-    { name: 'Expertise', href: '#faq' },
+    { name: 'Our Story', href: '#about' },
+    { name: 'Services', href: '#services' },
+    { name: 'Destinations', href: '#destinations' },
+    { name: 'FAQ', href: '#faq' },
   ]
 
   return (
@@ -77,7 +77,7 @@ const Navbar = () => {
                 !isScrolled && "bg-primary border-primary/20 text-white hover:bg-deep shadow-xl shadow-primary/20"
               )}
             >
-              Private Inquiry <ArrowUpRight size={12} className="ml-1 opacity-60" />
+              Contact Us <ArrowUpRight size={12} className="ml-1 opacity-60" />
             </Button>
           </div>
 
@@ -115,7 +115,7 @@ const Navbar = () => {
               </Link>
             ))}
             <div className="mt-8 px-8">
-                <Button variant="primary" className="w-full h-16 text-xs shadow-2xl">Private Inquiry</Button>
+                <Button variant="primary" className="w-full h-16 text-xs shadow-2xl">Contact Us</Button>
             </div>
           </div>
         </div>

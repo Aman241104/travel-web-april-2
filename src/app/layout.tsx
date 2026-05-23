@@ -16,7 +16,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Jade Tours & Travels | Premium Modern Travel Agency",
+  title: "Jade Tours & Travels | Your Perfect Travel Partner",
   description: "Domestic & international tours, flight bookings, visa assistance, and complete travel planning — all in one place.",
   keywords: "travel agency, flight booking, visa assistance, international tours, domestic tours, holiday packages",
 };
