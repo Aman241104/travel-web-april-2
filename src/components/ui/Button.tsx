@@ -54,12 +54,12 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         animate={{ x: position.x, y: position.y }}
         transition={{ type: 'spring', stiffness: 150, damping: 15, mass: 0.1 }}
         className={cn(
-          'relative px-10 py-5 rounded-full font-bold text-[10px] uppercase tracking-[0.2em] flex flex-row items-center justify-center gap-3 overflow-hidden group transition-all duration-500 whitespace-nowrap',
+          'relative px-10 py-5 rounded-full font-bold text-[10px] uppercase tracking-[0.2em] overflow-hidden group transition-all duration-500 whitespace-nowrap',
           variants[variant],
           className
         )}
       >
-        <span className="relative z-10">{children}</span>
+        <span className="relative z-10 flex items-center justify-center gap-3">{children}</span>
         {variant === 'primary' && (
           <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
         )}
