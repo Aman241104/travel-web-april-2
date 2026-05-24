@@ -132,8 +132,8 @@ const Packages = () => {
           ))}
         </div>
         
-        <div className="mt-20 flex flex-col items-center">
-          <Button variant="primary" className="h-16 px-12">
+        <div className="mt-12 md:mt-20 flex flex-col items-center">
+          <Button variant="primary" className="w-full sm:w-auto h-16 px-12">
             View All Holiday Packages
           </Button>
           <p className="mt-6 text-[9px] text-body/40 uppercase tracking-[0.2em] font-bold">Over 150+ custom travel plans available</p>

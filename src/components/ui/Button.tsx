@@ -29,10 +29,10 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     }
 
     const variants = {
-      primary: 'bg-primary text-white hover:bg-deep shadow-xl shadow-primary/20 hover:shadow-2xl hover:shadow-primary/30 hover:-translate-y-0.5 active:scale-95',
-      secondary: 'bg-white text-heading border border-black/5 hover:border-primary/20 hover:text-primary shadow-sm hover:shadow-lg hover:-translate-y-0.5 active:scale-95',
-      glass: 'glass text-heading hover:bg-white/90 hover:-translate-y-0.5 active:scale-95',
-      ghost: 'bg-transparent text-heading hover:bg-black/5 px-4 hover:-translate-y-0.5 active:scale-95',
+      primary: 'bg-primary text-white hover:md:bg-deep shadow-xl shadow-primary/20 hover:md:shadow-2xl hover:md:shadow-primary/30 hover:md:-translate-y-0.5 active:scale-95',
+      secondary: 'bg-white text-heading border border-black/5 hover:md:border-primary/20 hover:md:text-primary shadow-sm hover:md:shadow-lg hover:md:-translate-y-0.5 active:scale-95',
+      glass: 'glass text-heading hover:md:bg-white/90 hover:md:-translate-y-0.5 active:scale-95',
+      ghost: 'bg-transparent text-heading hover:md:bg-black/5 px-4 hover:md:-translate-y-0.5 active:scale-95',
     }
 
     return (
@@ -44,7 +44,9 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
           else if (ref) (ref as React.MutableRefObject<HTMLButtonElement | null>).current = node
         }}
         onMouseMove={(e) => {
-          handleMouse(e)
+          if (window.matchMedia('(hover: hover)').matches) {
+            handleMouse(e)
+          }
           if (props.onMouseMove) props.onMouseMove(e as any)
         }}
         onMouseLeave={(e) => {
@@ -61,9 +63,9 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       >
         <span className="relative z-10 flex items-center justify-center gap-3">{children}</span>
         {variant === 'primary' && (
-          <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+          <div className="absolute inset-0 bg-white/5 opacity-0 group-hover:md:opacity-100 transition-opacity duration-500" />
         )}
-        <div className="absolute inset-0 rounded-full border border-white/0 group-hover:border-white/10 transition-colors duration-500 pointer-events-none" />
+        <div className="absolute inset-0 rounded-full border border-white/0 group-hover:md:border-white/10 transition-colors duration-500 pointer-events-none" />
       </motion.button>
     )
   }

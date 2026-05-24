@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { SectionHeader } from '../ui/SectionHeader'
 import { Plus, Minus, ArrowUpRight } from 'lucide-react'
+import { Button } from '../ui/Button'
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0)
@@ -108,13 +109,13 @@ const FAQ = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="mt-24 p-12 rounded-[40px] bg-surface/50 border border-black/[0.03] text-center"
+          className="mt-16 md:mt-24 p-8 md:p-12 rounded-[40px] bg-surface/50 border border-black/[0.03] text-center"
         >
             <h3 className="text-2xl font-serif text-heading mb-4 italic">Still have questions?</h3>
             <p className="text-body text-sm mb-8 opacity-70">Our team is here 24/7 to help you with any travel questions.</p>
-            <button className="text-[10px] font-bold uppercase tracking-[0.3em] text-primary border-b border-primary/20 hover:border-primary pb-2 transition-all">
+            <Button variant="primary" className="w-full sm:w-auto h-16 inline-flex">
                 Chat with Us Now
-            </button>
+            </Button>
         </motion.div>
       </div>
     </section>

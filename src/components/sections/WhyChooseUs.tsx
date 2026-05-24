@@ -86,7 +86,7 @@ const WhyChooseUs = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.8 }}
-          className="mt-32 pt-12 border-t border-black/[0.03] text-center"
+          className="mt-20 md:mt-32 pt-8 md:pt-12 border-t border-black/[0.03] text-center"
         >
           <p className="text-[10px] uppercase tracking-[0.4em] text-body/40 font-bold">
             Trusted by over 10,000 travelers since 2011

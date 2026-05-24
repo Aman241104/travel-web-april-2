@@ -130,20 +130,35 @@ const Destinations = () => {
             </div>
           </div>
         ) : (
-          <div className="px-6 space-y-10">
-            {destinations.slice(0, 4).map((dest) => (
-              <div key={dest.name} className="relative aspect-[4/5] rounded-[40px] overflow-hidden group shadow-xl border border-black/5">
-                <img src={dest.image} alt={dest.name} className="w-full h-full object-cover" loading="lazy" />
-                <div className="absolute inset-0 bg-gradient-to-t from-deep/90 via-transparent to-transparent opacity-80" />
-                <div className="absolute bottom-10 left-10 right-10">
-                  <div className="text-white/60 text-[10px] uppercase tracking-[0.3em] mb-2 font-bold">{dest.category}</div>
-                  <div className="text-primary text-xl font-bold mb-1">{dest.price}</div>
-                  <h3 className="text-3xl font-serif !text-white leading-tight">{dest.name}</h3>
+          <div className="w-full">
+            <div className="flex overflow-x-auto snap-x snap-mandatory hide-scrollbar gap-6 px-6 pb-8">
+              {destinations.map((dest, i) => (
+                <div key={dest.name} className="relative w-[85vw] aspect-[4/5] shrink-0 rounded-[32px] overflow-hidden shadow-xl snap-center">
+                  <img src={dest.image} alt={dest.name} className="w-full h-full object-cover" loading="lazy" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-deep/90 via-deep/20 to-transparent opacity-80" />
+                  <div className="absolute bottom-8 left-8 right-8">
+                    <div className="text-white/60 text-[9px] uppercase tracking-[0.3em] mb-2 font-bold">{dest.category}</div>
+                    <div className="text-primary text-xl font-bold mb-1">{dest.price}</div>
+                    <h3 className="text-3xl font-serif !text-white leading-tight">{dest.name}</h3>
+                  </div>
+                  <div className="absolute top-6 right-6">
+                    <span className="text-white/20 font-serif text-4xl">0{i + 1}</span>
+                  </div>
                 </div>
+              ))}
+              {/* Final Carousel Card */}
+              <div className="w-[85vw] aspect-[4/5] shrink-0 rounded-[32px] bg-primary flex flex-col items-center justify-center text-center p-10 snap-center">
+                  <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center text-primary mb-6 shadow-xl">
+                      <ArrowRight size={20} />
+                  </div>
+                  <h3 className="text-2xl font-serif text-white mb-4 leading-tight">Explore Our <br />Entire Catalog</h3>
+                  <button className="text-[10px] font-bold uppercase tracking-[0.2em] text-white border-b border-white/40 pb-2">
+                      View All 150+
+                  </button>
               </div>
-            ))}
-            <div className="pt-6">
-                <Button variant="primary" className="w-full h-18">View All Destinations</Button>
+            </div>
+            <div className="px-6 pt-4 flex justify-center">
+                <Button variant="primary" className="w-full h-16">Explore All 50+ Places</Button>
             </div>
           </div>
         )}

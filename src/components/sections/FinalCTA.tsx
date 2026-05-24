@@ -12,11 +12,11 @@ const FinalCTA = () => {
       <div className="absolute inset-0 opacity-[0.02] pointer-events-none" style={{ backgroundImage: 'radial-gradient(circle, #000 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
 
       <div className="max-w-6xl mx-auto">
-        <div className="bg-primary rounded-[60px] p-12 md:p-24 text-center relative overflow-hidden shadow-[0_40px_100px_-20px_rgba(5,150,105,0.3)]">
+        <div className="bg-deep rounded-[60px] p-12 md:p-24 text-center relative overflow-hidden shadow-[0_40px_100px_-20px_rgba(5,46,43,0.3)]">
           
           {/* Internal Decorative Gradients */}
-          <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.15),transparent_60%)] pointer-events-none" />
-          <div className="absolute bottom-0 left-0 w-full h-full bg-[radial-gradient(circle_at_bottom_left,rgba(0,0,0,0.1),transparent_60%)] pointer-events-none" />
+          <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(circle_at_top_right,rgba(5,150,105,0.15),transparent_60%)] pointer-events-none" />
+          <div className="absolute bottom-0 left-0 w-full h-full bg-[radial-gradient(circle_at_bottom_left,rgba(0,0,0,0.2),transparent_60%)] pointer-events-none" />
           
           {/* Subtle SVG Path Background */}
           <div className="absolute inset-0 opacity-10 pointer-events-none">
@@ -48,8 +48,8 @@ const FinalCTA = () => {
               Whether you want a relaxing holiday, a cultural trip, or a business journey—we handle every detail for you.
             </p>
             
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-10">
-              <div className="relative group">
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-10">
+              <div className="relative group w-full sm:w-auto">
                 {/* Online Pulse Indicator */}
                 <div className="absolute -top-8 left-1/2 -translate-x-1/2 z-20 w-max">
                     <div className="glass px-4 py-1.5 rounded-full border-white/30 flex items-center gap-2 shadow-2xl backdrop-blur-2xl">
@@ -58,7 +58,7 @@ const FinalCTA = () => {
                     </div>
                 </div>
                 
-                <Button isMagnetic className="h-20 px-14 gap-5 text-[10px] bg-white text-[#25D366] hover:bg-[#F0FDF4] font-bold tracking-[0.2em] shadow-2xl group transition-all duration-500">
+                <Button isMagnetic className="h-20 w-full sm:w-auto px-14 gap-5 text-[10px] bg-white text-[#25D366] hover:bg-[#F0FDF4] font-bold tracking-[0.2em] shadow-2xl group transition-all duration-500">
                   <WhatsAppIcon size={24} /> Message Our Experts
                 </Button>
               </div>

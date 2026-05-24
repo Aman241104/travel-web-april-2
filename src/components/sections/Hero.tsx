@@ -111,16 +111,16 @@ const Hero = () => {
               We plan every detail of your trip so you can travel without any stress.
             </p>
             
-            <div className="flex flex-col sm:flex-row items-center gap-10">
+            <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-10">
               <Button 
                 isMagnetic 
                 variant="primary" 
-                className="h-16 px-12 text-[10px] group shadow-[0_20px_50px_-10px_rgba(5,150,105,0.4)] border border-primary/40 bg-[#059669] hover:bg-[#047857]"
+                className="w-full sm:w-auto h-16 px-12 text-[10px] group shadow-[0_20px_50px_-10px_rgba(5,150,105,0.4)] border border-primary/40 bg-[#059669] hover:bg-[#047857]"
               >
                 Start Planning <ArrowRight size={18} className="ml-3 group-hover:translate-x-2 transition-transform duration-500" />
               </Button>
               
-              <button className="group flex items-center gap-6 text-white hover:text-white transition-all py-3 relative">
+              <button className="group flex items-center gap-4 sm:gap-6 text-white hover:text-white transition-all py-3 relative">
                 <div className="w-16 h-16 rounded-full border border-white/30 flex items-center justify-center group-hover:border-primary group-hover:bg-primary/10 transition-all duration-500 relative overflow-hidden backdrop-blur-md">
                   <Play size={20} fill="currentColor" className="ml-1 relative z-10 transition-transform group-hover:scale-110 duration-500 ease-spring" />
                   <div className="absolute inset-0 bg-primary/20 scale-0 group-hover:scale-100 transition-transform duration-500 rounded-full ease-premium" />
